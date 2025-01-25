@@ -21,7 +21,7 @@ import { VscCode } from "react-icons/vsc";
 import { DiEclipse } from "react-icons/di";
 import { FiTool } from "react-icons/fi";
 
-function Skills() {
+const Skills = () => {
   const categories = [
     {
       title: "Programming Languages",
@@ -117,17 +117,17 @@ function Skills() {
       {/* Top Decorative Line */}
       <div className="absolute top-0 left-0 w-full h-1 bg-yellow-400"></div>
 
-      <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-white mb-8 text-center">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-2xl sm:text-3xl font-bold text-white mb-6 sm:mb-8 text-center">
           My Skills
         </h2>
         <div className="space-y-8">
           {categories.map((category) => (
             <div key={category.title}>
-              <h3 className="text-xl font-semibold text-white mb-4">
+              <h3 className="text-lg sm:text-xl font-semibold text-white mb-4">
                 {category.title}
               </h3>
-              <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
                 {category.skills.map((skill) => (
                   <div
                     key={skill.name}
@@ -135,7 +135,7 @@ function Skills() {
                   >
                     <div className="flex flex-col items-center">
                       {skill.icon}
-                      <h3 className="mt-2 text-sm font-medium text-gray-800 group-hover:text-yellow-500">
+                      <h3 className="mt-2 text-sm sm:text-base font-medium text-gray-800 group-hover:text-yellow-500">
                         {skill.name}
                       </h3>
                     </div>
@@ -155,6 +155,6 @@ function Skills() {
       <div className="absolute bottom-0 left-0 w-full h-1 bg-yellow-400"></div>
     </section>
   );
-}
+};
 
 export default Skills;
