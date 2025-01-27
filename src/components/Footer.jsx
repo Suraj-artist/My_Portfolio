@@ -5,6 +5,7 @@ import {
   FaInstagram,
   FaLinkedin,
   FaArrowUp,
+  FaGithub,
 } from "react-icons/fa";
 
 function Footer() {
@@ -97,6 +98,14 @@ function Footer() {
                 className="text-blue-500 text-xl sm:text-2xl hover:scale-110 transition-transform"
               >
                 <FaLinkedin />
+              </a>
+              <a
+                href="https://github.com/Suraj-artist"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 text-xl sm:text-2xl hover:scale-110 transition-transform"
+              >
+                <FaGithub />
               </a>
             </div>
           </div>
