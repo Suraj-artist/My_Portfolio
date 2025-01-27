@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from '../assets/logo.png';
+
 
 const Header = () => {
   const sectionIDs = {
@@ -28,8 +30,8 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center gap-4">
           <img
-            src="/logo.png"
-            alt="Suraj Logo"
+            src={logo}
+            alt="Logo"
             className="w-12 h-12 object-cover rounded-full"
           />
         </div>

@@ -26,7 +26,7 @@ const Home = () => {
         {/* Social Links */}
         <div className="flex gap-3 sm:gap-4 mb-6">
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/share/19jhUeF6jQ/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 text-xl sm:text-2xl hover:scale-110 transition-transform"
@@ -34,7 +34,7 @@ const Home = () => {
             <FaFacebook />
           </a>
           <a
-            href="https://twitter.com"
+            href="https://x.com/Suraj73965250?t=O8SIcv4f1-98QQA541LgQQ&s=09"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 text-xl sm:text-2xl hover:scale-110 transition-transform"
@@ -42,7 +42,7 @@ const Home = () => {
             <FaTwitter />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/cricket_lvr_abd_suraj_virat?igsh=ajE0dGU4ZWF1MWwx"
             target="_blank"
             rel="noopener noreferrer"
             className="text-pink-500 text-xl sm:text-2xl hover:scale-110 transition-transform"
@@ -50,7 +50,7 @@ const Home = () => {
             <FaInstagram />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/surajbaksi"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 text-xl sm:text-2xl hover:scale-110 transition-transform"

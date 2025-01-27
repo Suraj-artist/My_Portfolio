@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from "react";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaArrowUp } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedin,
+  FaArrowUp,
+} from "react-icons/fa";
 
 function Footer() {
   const [isVisible, setIsVisible] = useState(false);
@@ -44,46 +50,51 @@ function Footer() {
         <div className="flex flex-wrap justify-between mb-8">
           {/* Left Side: About */}
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <h3 className="text-2xl font-bold text-yellow-400 mb-4">About Me</h3>
+            <h3 className="text-2xl font-bold text-yellow-400 mb-4">
+              About Me
+            </h3>
             <p className="text-gray-400">
-              I'm a passionate Full Stack Developer with expertise in building dynamic and user-friendly web applications. 
-              I thrive on creating innovative solutions that make an impact.
+              I'm a passionate Full Stack Developer with expertise in building
+              dynamic and user-friendly web applications. I thrive on creating
+              innovative solutions that make an impact.
             </p>
           </div>
 
           {/* Middle: Social Media Links */}
           <div className="w-full md:w-1/3 mb-6 md:mb-0">
-            <h3 className="text-2xl font-bold text-yellow-400 mb-4">Connect With Me</h3>
-            <div className="flex gap-4 mb-6">
+            <h3 className="text-2xl font-bold text-yellow-400 mb-4">
+              Connect With Me
+            </h3>
+            <div className="flex gap-3 sm:gap-4 mb-6">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/19jhUeF6jQ/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-500 text-2xl hover:scale-110 transition-transform"
+                className="text-blue-500 text-xl sm:text-2xl hover:scale-110 transition-transform"
               >
                 <FaFacebook />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://x.com/Suraj73965250?t=O8SIcv4f1-98QQA541LgQQ&s=09"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-500 text-2xl hover:scale-110 transition-transform"
+                className="text-blue-500 text-xl sm:text-2xl hover:scale-110 transition-transform"
               >
                 <FaTwitter />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/cricket_lvr_abd_suraj_virat?igsh=ajE0dGU4ZWF1MWwx"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-pink-500 text-2xl hover:scale-110 transition-transform"
+                className="text-pink-500 text-xl sm:text-2xl hover:scale-110 transition-transform"
               >
                 <FaInstagram />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/surajbaksi"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-500 text-2xl hover:scale-110 transition-transform"
+                className="text-blue-500 text-xl sm:text-2xl hover:scale-110 transition-transform"
               >
                 <FaLinkedin />
               </a>
@@ -92,19 +103,41 @@ function Footer() {
 
           {/* Right Side: Quick Links */}
           <div className="w-full md:w-1/3">
-            <h3 className="text-2xl font-bold text-yellow-400 mb-4">Quick Links</h3>
+            <h3 className="text-2xl font-bold text-yellow-400 mb-4">
+              Quick Links
+            </h3>
             <ul className="space-y-2">
               <li>
-                <a href="#about" className="text-gray-400 hover:text-yellow-400">About Me</a>
+                <a
+                  href="#about"
+                  className="text-gray-400 hover:text-yellow-400"
+                >
+                  About Me
+                </a>
               </li>
               <li>
-                <a href="#projects" className="text-gray-400 hover:text-yellow-400">Projects</a>
+                <a
+                  href="#projects"
+                  className="text-gray-400 hover:text-yellow-400"
+                >
+                  Projects
+                </a>
               </li>
               <li>
-                <a href="#certifications" className="text-gray-400 hover:text-yellow-400">Certifications</a>
+                <a
+                  href="#certifications"
+                  className="text-gray-400 hover:text-yellow-400"
+                >
+                  Certifications
+                </a>
               </li>
               <li>
-                <a href="#contact" className="text-gray-400 hover:text-yellow-400">Contact</a>
+                <a
+                  href="#contact"
+                  className="text-gray-400 hover:text-yellow-400"
+                >
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
