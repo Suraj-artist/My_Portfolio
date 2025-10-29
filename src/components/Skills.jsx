@@ -16,6 +16,8 @@ import {
   SiFigma,
   SiCanva,
   SiPostman,
+  SiRedux,
+  SiNodedotjs,
 } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 import { DiEclipse } from "react-icons/di";
@@ -42,6 +44,16 @@ const Skills = () => {
       title: "Frameworks & Technologies",
       skills: [
         { name: "React", icon: <FaReact className="text-blue-500 text-3xl" /> },
+        
+        {
+          name: "Redux", icon:<SiRedux className="text-purple-500 text-3xl"/>
+        },
+
+        {
+           name: "Node.js",
+          icon: <SiNodedotjs className="text-green-600 text-3xl" />,
+        },
+
         {
           name: "Spring Boot",
           icon: <SiSpringboot className="text-green-500 text-3xl" />,
